@@ -1,0 +1,15 @@
+name: Economy
+version: '${project.version}'
+main: io.github.wamel04.economy.Economy
+author: WaMel_
+description: "멀티 화폐를 추가하는 플러그인입니다."
+
+commands:
+  addbalance:
+    description: "재화를 추가합니다."
+  removebalance:
+    description: "재화를 차감합니다."
+  setbalance:
+    description: "재화를 설정합니다."
+  getbalance:
+    description: "재화 보유량을 확인합니다."

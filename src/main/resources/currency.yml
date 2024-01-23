@@ -1,0 +1,26 @@
+# 서버에 추가할 재화의 목록입니다.
+# '&'를 색상 코드로 사용할 수 있습니다.
+
+currencies:
+  gold: # 재화의 이름입니다.
+    # 기본 재화로 설정합니다. (기본값: false)
+    # 기본 재화는 단 한개만 설정할 수 있습니다.
+    # 기본 재화는 Vault 플러그인과 연동이 됩니다.
+    default: true
+    tradable: true # 재화의 교환 가능 여부입니다.
+    material: GOLD_INGOT # 재화 아이템의 Material입니다.
+    tax-percent: 5 # 거래로 재화를 옮길 시 차감되는 수수료의 퍼센트입니다. (5%라면.. 100 gold -> 95 gold) (0~100 사이의 정수만 가능)
+    description:
+      - "&7황금으로 이루어진 불변의 화폐이다."
+      - "&7서버에서 쓰이는 기본 재화이다."
+  crystal:
+    default: false
+    tradable: true
+    material: NETHER_STAR
+    tax-percent: 0
+    description:
+      - "&7푸른빛이 일렁이는 진귀한 화폐이다."
+      - "&7후원으로 얻을 수 있는 재화이다."
+
+
+
